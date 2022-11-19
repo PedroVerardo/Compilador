@@ -10,7 +10,9 @@ struct dict_linhas{
 };
 typedef struct dict_linhas Dict_linhas;
 
-
+struct dict_erros{
+    int linhas;
+};
 
 
 static void error(const char* msg, int line)
